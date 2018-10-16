@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1237877727712858}
+  m_IsPrefabParent: 1
+--- !u!1 &1120014023399036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224224428979892362}
+  - component: {fileID: 222249663035971824}
+  - component: {fileID: 114202201642256828}
+  m_Layer: 5
+  m_Name: Game Rules Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1237877727712858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224527327924548780}
+  - component: {fileID: 222494696574802400}
+  - component: {fileID: 114146271067505328}
+  m_Layer: 5
+  m_Name: Game Info Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1287461149517182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224636010113871288}
+  - component: {fileID: 222338240929488084}
+  - component: {fileID: 114649605466303982}
+  m_Layer: 5
+  m_Name: How to Play Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &114146271067505328
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1237877727712858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.5058824, g: 0.46666667, b: 0.6392157, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 56c4630952ccd9546aa30a1eddc073e8, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114202201642256828
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1120014023399036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 87c316b602156405d92e616621658222, type: 3}
+    m_FontSize: 20
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\n1.  TWO PLAYERS MAY PARTICIPATE.  ONE PLAYER PLAYS WITH A KING AND DEFENDERS,
+    AND THE OTHER PLAYER PLAYS WITH ATTACKERS.  THERE ARE 12 DEFENDERS AND 24 ATTACKERS.\r\n\n\r\n2.
+    \ THE GAME IS PLAYED ON THE BOARD WITH 11 X 11 SQUARES.  THE CENTER SQUARE IS
+    CALLED THE THRONE AND THE 4 CONRNER SQUARES ARE RESTRICTED AND CAN ONLY BE OCCUPIED
+    BY THE KING.  IT IS ALLOWED FOR THE KING TO RE-ENTER THE THRONE AND ALL PIECES
+    MAY PASS THROUGH THE THRONE WHEN IT IS EMPTY.  THE CONRNER SQUARES ARE HOSTILE
+    TO ALL PIECES EXCEPT THE KING, WHICH MEANS THAT THEY CAN REPLACE ONE OF THE TWO
+    PIECES TAKING PART IN A CAPTURE.\r\n\n\r\n3.  THE ATTACKERS' SIDE MOVE FIRST AND
+    THEN THE GAME PROCEEDS BY ALTERNATE MOVES.  ALL PIECES MOVE ANY NUMBER OF VACANT
+    SQUARES ALONG THE ROW OR COLUMN, LIKE A ROOK IN CHESS.\r\n\n\r\n4.  ALL PIECES
+    EXCEPT THE KING ARE CAPTURED IF THEY ARE SANDWICHED BETWEEN TWO ENEMY PIECES OR
+    BETWEEN AND ENEMY PIECE AND A HOSITILE SQUARE, ALONG A COLUMN OR A ROW.  THE TWO
+    ENEMY PIECES SHOULD EITHER BE ON THE SQUARE ABOVE AND BELOW OR ON THE SQUARE TO
+    THE LEFT AND RIGHT OF THE ATTACKED PIECE.  A PIECE IS ONLY CAPTURED IF THE TRAP
+    IS CLOSED BY A MOVE OF THE OPPONENT, AND IT IS, THEREFORE, ALLOWED TO MOVE IN
+    BETWEEN TWO ENEMY PIECES.  A CAPTURED PIECE IS REMOVED FROM THE BOARD AND IS NO
+    LONGER ACTIVE IN THE GAME.  THE KING MAY TAKE PART IN CAPTURES.\r\n\n\r\n5.  THE
+    OBJECTIVE OF THE DEFENDERS IS TO MOVE THE KING TO ANY OF THE FOUR CORNER SQUARES.
+    \ IN THAT CASE, THE KING HAS ESCAPED AND THE DEFENDERS WIN.\r\n\r\n\n6.  THE ATTACKERS
+    WIN IF THEY CAPTURE THE KING BEFORE HE ESCAPES.  THE KING IS CAPTURED WHEN THE
+    ATTACKERS SURROUND HIM IN ALL FOUR CARDINAL POINTS.\n\n\nNOTE:  THERE ARE MANY
+    VARIATIONS TO THESES RULES, INCLUDING DIFFERENT WAYS TO CAPTURE THE PIECES, LIKE
+    THE SHIELDWALL RULE.  THE ABOVE RULE SET ARE THOSE THAT HAVE ALREADY BEEN IMPLEMENTED
+    IN THIS GAME."
+--- !u!114 &114649605466303982
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1287461149517182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 87c316b602156405d92e616621658222, type: 3}
+    m_FontSize: 30
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: HOW TO PLAY
+--- !u!222 &222249663035971824
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1120014023399036}
+--- !u!222 &222338240929488084
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1287461149517182}
+--- !u!222 &222494696574802400
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1237877727712858}
+--- !u!224 &224224428979892362
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1120014023399036}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.75, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224527327924548780}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224527327924548780
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1237877727712858}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224636010113871288}
+  - {fileID: 224224428979892362}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224636010113871288
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1287461149517182}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224527327924548780}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -20}
+  m_SizeDelta: {x: 0, y: 50}
+  m_Pivot: {x: 0.5, y: 1}
